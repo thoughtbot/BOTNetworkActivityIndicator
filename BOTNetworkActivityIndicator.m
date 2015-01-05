@@ -1,11 +1,3 @@
-//
-//  BOTNetworkActivityIndicator.m
-//  Pods
-//
-//  Created by Mark Adams on 1/5/15.
-//
-//
-
 #import "BOTNetworkActivityIndicator.h"
 
 @interface BOTNetworkActivityIndicator ()
@@ -41,7 +33,6 @@
 
     return indicator;
 }
-
 
 - (void)pushNetworkActivity
 {

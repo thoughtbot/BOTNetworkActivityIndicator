@@ -1,5 +1,0 @@
-#include "Pods-BOTNetworkActivityIndicator-BOTNetworkActivityIndicator.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/BOTNetworkActivityIndicator" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BOTNetworkActivityIndicator"
-OTHER_LDFLAGS = -ObjC
-PODS_ROOT = ${SRCROOT}

@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_BOTNetworkActivityIndicator_BOTNetworkActivityIndicator : NSObject
-@end
-@implementation PodsDummy_Pods_BOTNetworkActivityIndicator_BOTNetworkActivityIndicator
-@end
