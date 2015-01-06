@@ -3,7 +3,7 @@
 @interface BOTNetworkActivityIndicator ()
 
 @property (nonatomic) dispatch_queue_t networkActivityCounterQueue;
-@property (nonatomic) NSUInteger networkActivityCounter;
+@property (nonatomic) NSInteger networkActivityCounter;
 
 @end
 
@@ -42,10 +42,14 @@
     });
 }
 
-- (void)popNetowrkActivity
+- (void)popNetworkActivity
 {
     dispatch_sync(self.networkActivityCounterQueue, ^{
         self.networkActivityCounter--;
+        if (self.networkActivityCounter < 0) {
+            self.networkActivityCounter = 0;
+        }
+
         [self updateNetworkActivityIndicator];
     });
 }

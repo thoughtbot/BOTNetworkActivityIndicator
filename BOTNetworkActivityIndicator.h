@@ -5,6 +5,6 @@
 
 + (instancetype)sharedIndicator;
 - (void)pushNetworkActivity;
-- (void)popNetowrkActivity;
+- (void)popNetworkActivity;
 
 @end

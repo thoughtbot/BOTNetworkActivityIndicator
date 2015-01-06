@@ -1,0 +1,4 @@
+FOUNDATION_EXPORT double BOTNetworkActivityIndicatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char BOTNetworkActivityIndicatorVersionString[];
+
+#import <BOTNetworkActivityIndicator/BOTNetworkActivityIndicator.h>
