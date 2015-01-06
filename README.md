@@ -1,5 +1,6 @@
 # BOTNetworkActivityIndicator
 
+[![Build Status](https://travis-ci.org/thoughtbot/BOTNetworkActivityIndicator.svg?branch=master)](https://travis-ci.org/thoughtbot/BOTNetworkActivityIndicator)
 [![Version](https://img.shields.io/cocoapods/v/BOTNetworkActivityIndicator.svg?style=flat)](http://cocoadocs.org/docsets/BOTNetworkActivityIndicator)
 [![License](https://img.shields.io/cocoapods/l/BOTNetworkActivityIndicator.svg?style=flat)](http://cocoadocs.org/docsets/BOTNetworkActivityIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/BOTNetworkActivityIndicator.svg?style=flat)](http://cocoadocs.org/docsets/BOTNetworkActivityIndicator)
